@@ -4,12 +4,12 @@ define(['angular', 'app'], function (angular, app) {
 
     return app.config(['$routeProvider', function ($routeProvider) {
         $routeProvider.
-            when('/todo', {
-                templateUrl: 'app/tpl/todo.html',
+            when('/blog', {
+                templateUrl: 'app/tpl/blog.html',
                 controller: 'TodoCtrl'
             }).
             otherwise({
-                redirectTo: '/'
+                redirectTo: '/blog'
             });
     }]);
 
