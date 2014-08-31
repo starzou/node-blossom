@@ -1,0 +1,18 @@
+{
+  "name": "node-blossom",
+  "version": "1.0.0",
+  "description": "node-blossom is an advanced,flexible and fast architecture nodejs-based.",
+  "main": "app.js",
+  "authors": [
+    "StarZou"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2.23",
+    "angular-route": "~1.2.23",
+    "requirejs": "~2.1.14",
+    "requirejs-text": "~2.0.12",
+    "require-css": "~0.1.5"
+  }
+}
