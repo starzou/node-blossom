@@ -24,7 +24,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // third party modules setup
-app.use(favicon(__dirname + '/public/src/img/favicon.ico'));
+app.use(favicon(__dirname + '/public/src/app/img/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
